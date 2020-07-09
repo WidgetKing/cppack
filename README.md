@@ -16,7 +16,7 @@ npm install cppack -g
 ```
 
 # Useage
-All CpPack's features are implemented in four commands:
+All CpPack's features are implemented in three commands:
 
 ## init
 When starting a new Captivate javascript process, navigate your command line to your javascript project folder and enter the following command:
@@ -30,12 +30,12 @@ The CpPack tool will then ask you if you want to use **recommended** settings or
 The recommended settings will generate the following folder structure:
 
 ```
-\- dist (The merged javascript file and Web Object will be saved here)
-\- server (Test how your code will work in your Captivate project by including the project export in this folder)
-\- src (Folder for your javascript code)
-\-- index.js (Start writing javascript here)
-\- cppack-config.json (File which records your CpPack settings. Can be edited to fit your needs)
-\- package.json (Standard javascript projects include this file to keep track of your project's details and dependancies)
+- dist (The merged javascript file and Web Object will be saved here)
+- server (Test how your code will work in your Captivate project by including the project export in this folder)
+- src (Folder for your javascript code)
+-- index.js (Start writing javascript here)
+- cppack-config.json (File which records your CpPack settings. Can be edited to fit your needs)
+- package.json (Standard javascript projects include this file to keep track of your project's details and dependancies)
 ```
 ## pack
 When you want to merge your javascript files into a Web Object that can be imported into Captivate, run the following command:
