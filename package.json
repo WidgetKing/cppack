@@ -1,0 +1,11 @@
+{
+  "name": "cppack",
+  "version": "1.0.0",
+  "description": "A command line tool which merges your Captivate javascript code into a single file and packages it into a format which can be imported into Captivate.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tristan Ward",
+  "license": "ISC"
+}
